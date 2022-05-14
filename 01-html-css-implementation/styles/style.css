@@ -156,14 +156,6 @@ a {
   background-color: white;
 }
 
-.btn {
-  display: inline-block;
-  margin-top: 1em;
-  color: white;
-  background-color: green;
-  padding: 1em;
-}
-
 /* hero */
 
 .hero {
@@ -180,6 +172,11 @@ a {
   border-radius: 0.4em;
   text-decoration: none;
   font-weight: 600;
+}
+
+.btn-sub {
+  background-color: black;
+  color: white;
 }
 
 .btn:hover,
@@ -219,11 +216,58 @@ a {
   padding: 2em;
 }
 
+/* media */
+.media {
+  background: #f0f0f0;
+  text-align: center;
+}
+
+/* partners */
+.partners {
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.fp-hr {
+  border: 1px solid black;
+}
+
+.sr {
+  width: 60%;
+}
+
+.sub {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* footer */
+footer {
+  background-color: black;
+  padding: 2em;
+  color: white;
+}
+
+.footer-link {
+  color: #0d0;
+  text-decoration: underline;
+}
+
+.footer-info {
+  text-align: center;
+}
+
 /* media queries */
 
 @media (min-width: 768px) {
   .hero_content {
     width: 50%;
+  }
+
+  .media_row_1 {
+    flex-direction: column;
   }
 }
 
