@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <div class="intro">
+    <div class="intro overlay">
       <header>
         <nav class="navbar container">
           <a href="#" class="nav-branding"
@@ -18,7 +18,9 @@
               alt="se factory logo"
           /></a>
           <ul class="nav-menu">
-            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link active">Home</a>
+            </li>
             <li class="nav-item">
               <a href="#" class="nav-link">Get Trained</a>
             </li>
@@ -41,21 +43,44 @@
         </nav>
       </header>
 
-      <section class="hero">
-        <div class="container row">
-          <div class="hero__text">
-            <p class="title">
+      <div class="hero">
+        <div class="container">
+          <div class="hero_content">
+            <p class="main-title">
               <strong>Empowering Youth</strong> with tech jobs.
             </p>
-            <p class="subtitle">
+            <p class="main-subtitle">
               SE Factory's top-ranked training programs graduate tech
               professionals working for companies all over the world.
             </p>
+
             <a href="#" class="btn">Learn More</a>
           </div>
         </div>
-      </section>
+      </div>
     </div>
+
+    <section class="stats">
+      <div class="container row">
+        <div class="col">
+          <h2 class="stats-title">90%</h2>
+          <p class="stats-subtitle">Employment Success Rate</p>
+          <p class="stats-subtitle">-</p>
+        </div>
+
+        <div class="col">
+          <h2 class="stats-title">500+</h2>
+          <p class="stats-subtitle">Youth Trained Since 2016</p>
+          <p class="stats-subtitle">-</p>
+        </div>
+
+        <div class="col">
+          <h2 class="stats-title">145+</h2>
+          <p class="stats-subtitle">Global Recruitment Partner Companies</p>
+          <p class="stats-subtitle">-</p>
+        </div>
+      </div>
+    </section>
 
     <script src="script.js"></script>
   </body>
