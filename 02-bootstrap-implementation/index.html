@@ -16,68 +16,118 @@
   </head>
 
   <body>
-    <!-- Navigation -->
-    <nav class="container navbar navbar-expand-md navbar-light bg-light">
-      <div class="container-fluid">
-        <a href="" class="navbar-brand">
-          <img class="logo" src="assets/images/logo.png" alt="" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarResponsive"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a href="#" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item active">
-              <a href="#" class="nav-link">Get Trained</a>
-            </li>
-            <li class="nav-item active">
-              <a href="#" class="nav-link">Hire Talent</a>
-            </li>
-            <li class="nav-item active">
-              <a href="#" class="nav-link">FAQs</a>
-            </li>
-            <li class="nav-item active">
-              <a href="#" class="nav-link">Blog</a>
-            </li>
-            <li class="nav-item active">
-              <a href="#" class="nav-link">About Us</a>
-            </li>
-            <li class="nav-item active">
-              <a href="#" class="nav-link">Contact</a>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link"
-                href="#"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Apply Now
-              </a>
-              <div
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <a class="dropdown-item" href="#">Full Stack Web Development</a>
-                <a class="dropdown-item" href="#"
-                  >Foundations of Computer Science</a
+    <div class="intro overlay">
+      <!-- Navigation -->
+      <nav class="container navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <a href="" class="navbar-brand">
+            <img class="logo" src="assets/images/logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a href="#" id="active-link" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Get Trained</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Hire Talent</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">FAQs</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
                 >
-              </div>
-            </li>
-          </ul>
+                  Apply Now
+                </a>
+                <div
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <a class="dropdown-item" href="#"
+                    >Full Stack Web Development</a
+                  >
+                  <a class="dropdown-item" href="#"
+                    >Foundations of Computer Science</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
+      <!--- Hero Section -->
+      <div class="container container-fluid padding">
+        <section class="hero">
+          <div class="row padding">
+            <div class="col-lg-6 col-md-6">
+              <p class="title">
+                <span class="title-accent">Empowering youth</span> with tech
+                jobs.
+              </p>
+              <p class="subtitle">
+                SE Factory's top-ranked training programs graduate tech
+                professionals working for companies all over the world.
+              </p>
+              <a href="#" class="title-link">Learn More</a>
+            </div>
+          </div>
+        </section>
       </div>
-    </nav>
+    </div>
+
+    <!--- Stats Section -->
+    <div class="container container-fluid padding stats-container">
+      <section class="stats">
+        <div class="row text-center padding">
+          <div class="col-md-4 col-lg-4">
+            <h2 class="stats-num">90%</h2>
+            <p class="stats-info">
+              Employment Success Rate <br />
+              —
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-4">
+            <h2 class="stats-num">500+</h2>
+            <p class="stats-info">
+              Youth Trained Since 2016 <br />
+              —
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-4">
+            <h2 class="stats-num">145+</h2>
+            <p class="stats-info">
+              Global Recruitment Partner Companies <br />
+              —
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
   </body>
 </html>

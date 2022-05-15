@@ -22,3 +22,63 @@ img {
 .logo {
   width: 80px;
 }
+
+.intro {
+  background: url("../assets/images/hero.jpeg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero {
+  padding: 14em 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+#active-link {
+  color: white;
+  text-decoration: underline;
+}
+
+/* typography */
+
+.title {
+  font-size: 2.5em;
+  color: white;
+}
+
+.title-accent {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.subtitle {
+  color: white;
+}
+
+.stats-num {
+  font-size: 4em;
+  color: #18ea19;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+.stats-info {
+  padding: 2em;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* sections */
+
+.stats-container {
+  width: 80%;
+}
