@@ -19,6 +19,14 @@ img {
   max-width: 100%;
 }
 
+.testimonial {
+  text-align: center;
+  width: 65%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .logo {
   width: 80px;
 }
@@ -49,9 +57,19 @@ img {
 
 /* typography */
 
+.title-w,
+.subtitle-w {
+  color: white;
+}
+
+.title-sub,
+.subtitle-sub {
+  text-align: center;
+}
+
 .title {
   font-size: 2.5em;
-  color: white;
+  color: black;
 }
 
 .title-accent {
@@ -60,7 +78,7 @@ img {
 }
 
 .subtitle {
-  color: white;
+  color: black;
 }
 
 .stats-num {
@@ -81,4 +99,13 @@ img {
 
 .stats-container {
   width: 80%;
+}
+
+/* programs */
+.programs {
+  background: #0d0;
+}
+
+.sp {
+  max-width: 100%;
 }
