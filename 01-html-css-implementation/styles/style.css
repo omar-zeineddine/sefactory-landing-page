@@ -267,8 +267,9 @@ a {
 
 .program {
   margin: 0 auto;
-  max-width: 400px;
+  max-width: 350px;
   align-self: center;
+  margin: 0 8em;
 }
 
 .programs-title {
