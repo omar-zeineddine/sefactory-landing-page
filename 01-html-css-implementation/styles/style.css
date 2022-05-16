@@ -130,6 +130,18 @@ h2 {
   padding: 4em 0;
 }
 
+.media {
+  padding: 4em 0;
+}
+
+.media img {
+  padding: 1em 0;
+}
+
+.media h2 {
+  margin-bottom: 0.5em;
+}
+
 .hero p {
   margin-bottom: 1em;
 }
@@ -316,6 +328,10 @@ footer {
   text-align: center;
 }
 
+.foot-col {
+  margin-left: auto;
+}
+
 /* media queries */
 
 @media (min-width: 768px) {
@@ -331,6 +347,10 @@ footer {
 @media (max-width: 768px) {
   .row {
     display: block;
+  }
+
+  .col-5 {
+    margin-left: 2%;
   }
 
   .col + .col {

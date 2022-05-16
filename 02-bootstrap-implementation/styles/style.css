@@ -57,9 +57,19 @@ img {
 
 /* typography */
 
-.title-w,
+.title-w {
+  color: white;
+  font-size: 2.7em;
+}
+
 .subtitle-w {
   color: white;
+  font-size: 1.4em;
+}
+
+.title-wp {
+  font-size: 2.4em;
+  text-align: center;
 }
 
 .title-sub,
@@ -77,8 +87,18 @@ img {
   font-weight: 900;
 }
 
+.title-net {
+  font-size: 2em;
+}
+
+.title-accent-net {
+  font-size: 1em;
+  font-weight: 700;
+}
+
 .subtitle {
   color: black;
+  font-size: 1.2em;
 }
 
 .stats-num {
@@ -101,6 +121,10 @@ img {
   width: 80%;
 }
 
+.skills {
+  padding: 5em 0;
+}
+
 /* programs */
 .programs {
   background: #0d0;
@@ -108,4 +132,95 @@ img {
 
 .sp {
   max-width: 100%;
+}
+
+.title-wp {
+  color: white;
+  text-align: center;
+}
+
+.title-media {
+  margin-bottom: 1em;
+  font-size: 2.2em;
+  font-weight: 700;
+}
+
+.container-prog,
+.container-net {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* .media { */
+/*   background: #f0f0f0; */
+/* } */
+/*  */
+
+.media-1 {
+  background: #f0f0f0;
+  padding: 2em 0;
+}
+
+.sub {
+  text-align: center;
+  background: #f0f0f0;
+  margin: 0 auto;
+  padding: 3em 0;
+}
+
+.s-partners {
+  padding: 4em 0;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+/* buttons */
+
+.btn,
+.nav-link-btn {
+  display: inline-block;
+  background-color: #0d0;
+  color: white;
+  padding: 0.6em 1em;
+  border-radius: 0.4em;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn-sub {
+  background-color: black;
+  color: white;
+  padding: 0.5em 1.2em;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 0.75;
+}
+
+/* footer */
+footer {
+  background-color: black;
+  padding: 2em;
+  color: white;
+}
+
+.footer-link {
+  color: #0d0;
+  text-decoration: underline;
+}
+
+.section-link {
+  text-decoration: underline;
+  color: #0d0;
+  margin-top: 0;
+  font-size: 1.2em;
+}
+
+.subtitle-info {
+  font-size: 1.6em;
 }

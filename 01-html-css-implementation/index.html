@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SE Factory</title>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css">
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
@@ -96,29 +98,27 @@
     </section>
 
     <section class="programs">
-      <div class="container">
         <p class="programs-title">
           Discover the program <strong>that's right for you.</strong>
         </p>
-        <div class="row">
-              <div class="col">
-                <img
-                  class="program"
-                  src="assets/images/fsw.png"
-                  alt=""
-                  class="se factory fsw"
-                />
-              </div>
-              <div class="col">
-                <img
-                  class="program"
-                  src="assets/images/fcs.png"
-                  alt=""
-                  class="se factory fcs"
-                />
-              </div>
+        <div class="row container">
+                <div class="col-5">
+                  <img
+                    class="program"
+                    src="assets/images/fsw.png"
+                    alt=""
+                    class="se factory fsw"
+                  />
+                </div>
+                <div class="col-5">
+                  <img
+                    class="program"
+                    src="assets/images/fcs.png"
+                    alt=""
+                    class="se factory fcs"
+                  />
+                </div>
           </div>
-        </div>
       </div>
     </section>
 
@@ -155,8 +155,7 @@
     </section>
     
     <section class="media">
-      <h2>In The Media</h2>
-      <div class="container row">
+      <h2 class="media-title">In The Media</h2>
         <div class="media_row_1">
           <a href="#" target="_blank"><img src="assets/images/media/m1.png" alt=""></a>
           <a href="#" target="_blank"><img src="assets/images/media/m2.png" alt=""></a>
@@ -198,10 +197,19 @@
       <a href="#" class="btn btn-sub">Subscribe</a>
     </section>
     
-    <footer>
-      <div class="container">
+    <footer id="footer">
+      <div class="container row">
+        <div class="col">
         <a class="footer-link" href="#">Privacy Policy</a>
+        </div>
+        <div class="col">
         <p class="footer-info">Copyright © 2022 SE Factory SAL. All Rights Reserved.</p>
+        </div>
+        <div class="row col foot-col">
+        <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+        </div>
       </div>
     </footer>
 
